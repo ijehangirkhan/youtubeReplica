@@ -1,0 +1,258 @@
+/* Style buttons */
+.btn {
+	border: none; /* Remove borders */
+	background-color: white ;
+	color:black; /* Black text */
+	padding: 12px 16px; /* Some padding */
+	font-size: 20px; /* Set a font size */
+	cursor: pointer; /* Mouse pointer on hover */
+	outline: none;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:active {
+	background-color: lightgray;
+	border-radius: 50%;
+  }
+
+
+  .btn2
+  {
+	background-color: white; 
+  color: #065FD4; 
+  border: 1px solid #065FD4;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	font: bold !important;
+	cursor: pointer;
+	outline: none;
+	justify-self: flex-end;
+  }
+
+
+  .btn3
+  {
+	background-color: white; 
+  color: #065FD4; 
+  border: 1px solid #065FD4;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	font: bold !important;
+	cursor: pointer;
+	outline: none;
+	margin-left: auto;
+	margin-right: auto;
+	justify-self: center !important;
+  }
+/* 
+  .menuPart
+  {
+	  width: 20px;
+	  height: 2px;
+	  background-color: black;
+	  margin: 4px 0;
+  }
+  .menu
+  {
+	  margin: 20px;
+  } */
+
+.video 
+{
+	position: relative;
+}
+
+.watch-later
+{
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.card:hover .watch-later
+{
+	opacity: 1;
+}
+
+
+.create
+{
+	border: none;
+	outline: none;
+	background: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.youtube-apps
+{
+	border: none;
+	outline: none;
+	background: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.settings
+{
+	border: none;
+	outline: none;
+	background: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.video-title
+{
+	color: #030303;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.channel-name
+{
+	color: #606060;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.views
+{
+	color: #606060;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.video-settings
+{
+	border: none;
+	outline: none;
+	background: none;
+	margin-left: auto;
+	margin-top: 20px;
+	align-self: flex-start;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.card:hover .video-settings
+{
+	opacity: 1;
+}
+
+
+.header
+{
+	display: flex;
+	align-items: center;
+}
+.logo
+{
+	width: 7%;
+	height: 7%;
+	margin: 14;
+}
+.search-bar
+{
+	font-size: 17px;
+	border: 1 solid lightgray;
+	outline-color: #065FD4;
+	width: 500px;
+}
+.search-container
+{
+	display: flex;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search-button
+{
+	background: none;
+    width: 80px;
+	cursor: pointer;
+	outline: none;
+}
+.search-button:hover {
+	background-color: #F0F0F0 !important;
+  }
+
+
+.card {
+	width: 100%;
+	height: 100%;
+  }
+
+  .videos
+  {
+	  margin: 30px;
+	  display: grid;
+	 grid-template-columns: repeat(4, 1fr);
+	 grid-gap: 15px;
+	 
+  }
+
+  .channel
+  {
+	  width: 12%;
+	  height: 12%;
+	  border-radius: 50%;
+	  margin-top: 20px;
+	  margin-right: 20px;
+	  
+  }
+  .video-details
+  {
+	  display: flex;
+  }
+
+
+
+
+  .sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color:white;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+  }
+  
+  .sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #505050;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+	background-color:#F2F2F2;
+  }
+
+  .menu-button
+  {
+	  margin-left: 30px;
+	  margin-right: 30px;
+  }
+
+  .menu-paragraph
+  {
+	color: #505050;
+	margin-left:  30px;
+	margin-right: 30px;
+  }

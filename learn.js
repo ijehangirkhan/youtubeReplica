@@ -1,20 +1,9 @@
-/* const openMenu = document.querySelector('show-menu');
-const hideMenuIcon = document.querySelector('hide-menu');
-const sideMenu = document.querySelector('mySidenav');
-
-openMenu.addEventListener('click', function(){
-    sideMenu.classList.add('active');
-})
-
-hideMenuIcon.addEventListener('click', function(){
-    sideMenu.classList.remove('active');
-}) */
-
 document.getElementById("mySidenav").addEventListener("click", toggleNav);
 
 function toggleNav(){
-    navSize = document.getElementById("mySidenav").style.width;
-    if (navSize == 250) {
+  var navSize = document.getElementById("mySidenav").style.width;
+  console.log(navSize);
+  if (navSize == '250px') {
         return closeNav();
     }
     return openNav();
@@ -26,6 +15,6 @@ function toggleNav(){
     }
     
     function closeNav() {
-      document.getElementById("mySidenav").style.width = "100px";
-      document.getElementById("main").style.marginLeft= "100px";
+      document.getElementById("mySidenav").style.width = "0px";
+      document.getElementById("main").style.marginLeft= "0px";
     }

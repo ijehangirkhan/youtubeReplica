@@ -192,15 +192,19 @@
 	height: 100%;
   }
 
+.main
+{
+	display: grid;
+	grid-template-columns: 100px auto;
+}
+
   .videos
   {
-	  margin: 30px;
-	  display: grid;
+	 margin: 30px;
+	 display: grid;
 	 grid-template-columns: repeat(4, 1fr);
 	 grid-gap: 15px;
-	 
   }
-
   .channel
   {
 	  width: 12%;
@@ -216,9 +220,49 @@
   }
 
 
+.fixedSideNav
+{
+	margin-top: 75px;
+	height: 100%;
+	width: 100px;
+	top: 0;
+	left: 0;
+	background-color:white;
+	overflow-x: hidden;
+	display: grid;
+}
 
+/* .fixedNavText
+{
+	
+} */
+
+.fixedNavIcons
+{
+	border: none;
+	outline: none;
+	background: none;
+/* 	margin-left: 10px;
+	margin-right: 10px; */
+	cursor: pointer;
+	font-size: 12;
+	justify-items: center;
+	display: grid;
+	padding: 0;
+}
+
+
+.fixedSideNav a {
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #505050;
+	display: block;
+  }
+  
 
   .sidenav {
+	margin-top: 60px;
 	height: 100%;
 	width: 0;
 	position: fixed;
@@ -227,7 +271,7 @@
 	left: 0;
 	background-color:white;
 	overflow-x: hidden;
-	transition: 0.5s;
+	/* transition: 0.5s; */
 	padding-top: 60px;
   }
   
@@ -237,7 +281,7 @@
 	font-size: 20px;
 	color: #505050;
 	display: block;
-	transition: 0.3s;
+	/* transition: 0.3s; */
   }
   
   .sidenav a:hover {
